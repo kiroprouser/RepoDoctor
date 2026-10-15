@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a focused improvement to repository readiness analysis.
+title: "[Request]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What contributor-readiness problem would this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe a small, concrete solution and any trade-offs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Product scope
+      options:
+        - label: This stays focused on public-repository contributor readiness.
+          required: true

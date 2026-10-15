@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible problem in Repo Doctor.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Please do not include private repository URLs, credentials, access tokens, or other sensitive information.
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository analyzed
+      description: Use a public repository URL, or enter "not applicable".
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect Repo Doctor to do?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened? Include the visible error message, if any.
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Firefox 130, Chrome 130, Safari 18
+    validations:
+      required: false
