@@ -30,8 +30,9 @@
 - **MLH challenge:** `[Add the official challenge name or track]`
 - **GitHub Copilot usage:** Used as a coding assistant during implementation and refinement of the React/TypeScript interface, repository checks, and project documentation. Generated changes were reviewed and validated with the project build and linter.
 - **Screenshots/assets:** `[Add desktop and mobile screenshots after deployment]`
-- **Suggested GitHub description:** Check whether a public GitHub repository is ready for open-source contributors.
-- **Suggested GitHub topics:** `open-source`, `github`, `developer-tools`, `contributor-experience`, `repository-health`, `vite`, `react`, `typescript`
+- **GitHub repository description:** Check whether a public GitHub repository is ready for open-source contributors.
+- **GitHub homepage URL:** https://kiroprouser.github.io/RepoDoctor/
+- **GitHub repository topics:** `open-source`, `github`, `developer-tools`, `contributor-experience`, `repository-health`, `repository-analysis`, `vite`, `react`, `typescript`
 - **Submission summary:** Repo Doctor turns a public repository URL into a shareable, deterministic contributor-readiness report with concrete fixes.
 
 ## Future scope
