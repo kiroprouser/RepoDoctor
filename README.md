@@ -36,7 +36,7 @@ The score is out of 100, weighted across Documentation (35), Contributor Experie
 Requirements: Node.js 24 and npm.
 
 ```sh
-npm ci
+npm install
 npm run dev
 ```
 
