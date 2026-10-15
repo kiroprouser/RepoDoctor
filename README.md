@@ -1,6 +1,8 @@
 # Repo Doctor
 
-![Repo Doctor mark](public/favicon.svg)
+<p align="center">
+  <img src="public/favicon.svg" width="56" height="56" alt="Repo Doctor logo" />
+</p>
 
 Repo Doctor checks whether a public GitHub repository gives potential contributors the information and basic setup signals they need to get involved. Paste a repository URL to get a deterministic, prioritized readiness report.
 
