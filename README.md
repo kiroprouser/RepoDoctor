@@ -6,6 +6,8 @@
 
 Repo Doctor checks whether a public GitHub repository gives potential contributors the information and basic setup signals they need to get involved. Paste a repository URL to get a deterministic, prioritized readiness report.
 
+![Repo Doctor home page with the repository analysis input and open-source readiness checks](docs/assets/showcase/01-home.png)
+
 ## What it checks
 
 - **Documentation** — README, setup and usage guidance, license, and changelog signal
@@ -14,6 +16,20 @@ Repo Doctor checks whether a public GitHub repository gives potential contributo
 - **Repository setup** — description, topics, GitHub Actions workflow, and archived status
 
 The score is out of 100, weighted across Documentation (35), Contributor Experience (30), Developer Experience (20), and Repository Setup (15). Repo Doctor checks presence and basic text signals; it does not assess source-code quality, test quality, or whether a workflow is correct.
+
+## Showcase
+
+**Analysis report**
+
+![Repo Doctor report for vercel/next.js showing its real 92 out of 100 score, category breakdown, checks, and priority fixes](docs/assets/showcase/02-analysis-report.png)
+
+**Actionable findings**
+
+![Expanded Usage examples finding showing what was found, why it matters, the recommended fix, and priority fixes](docs/assets/showcase/03-actionable-findings.png)
+
+**Responsive experience**
+
+![Repo Doctor home page shown at desktop and mobile screen sizes](docs/assets/showcase/04-responsive.png)
 
 ## Run locally
 
@@ -52,7 +68,9 @@ The report URL is `/report/:owner/:repo`; direct visits fetch a fresh analysis. 
 
 ## Deployment
 
-The production site is hosted on GitHub Pages at [https://kiroprouser.github.io/RepoDoctor/](https://kiroprouser.github.io/RepoDoctor/). Pushing to `main` triggers GitHub Actions to run the quality checks, build the SPA for the project Pages path, and deploy the generated `dist/` output. The Pages build includes an SPA fallback for direct report and About URLs. Run `npm run build` to create a production build locally.
+**Production URL:** [https://kiroprouser.github.io/RepoDoctor/](https://kiroprouser.github.io/RepoDoctor/)
+
+Pushing to `main` triggers GitHub Actions to run the quality checks, build the SPA for the project Pages path, and deploy the generated `dist/` output. The Pages build includes an SPA fallback for direct report and About URLs. Run `npm run build` to create a production build locally.
 
 ## Contributing
 

@@ -29,7 +29,12 @@
 - **Repository URL:** https://github.com/kiroprouser/RepoDoctor
 - **MLH challenge:** `[Add the official challenge name or track]`
 - **GitHub Copilot usage:** Used as a coding assistant during implementation and refinement of the React/TypeScript interface, repository checks, and project documentation. Generated changes were reviewed and validated with the project build and linter.
-- **Screenshots/assets:** `[Add desktop and mobile screenshots after deployment]`
+- **Showcase assets:**
+  - `docs/assets/showcase/01-home.png` — 1920 × 1080 — Home page and repository input — README cover and project introduction.
+  - `docs/assets/showcase/02-analysis-report.png` — 1920 × 1080 — Real `vercel/next.js` report (92/100) — README analysis showcase.
+  - `docs/assets/showcase/03-actionable-findings.png` — 1920 × 1080 — Expanded usage finding with explanation, recommendation, and priority fixes — README findings showcase.
+  - `docs/assets/showcase/04-responsive.png` — 1920 × 1080 — Real desktop and mobile Home layouts — README responsive showcase and portfolio.
+  - `docs/assets/showcase/og-image.png` — 1200 × 630 — Home-led product preview — repository and link-sharing preview.
 - **GitHub repository description:** Check whether a public GitHub repository is ready for open-source contributors.
 - **GitHub homepage URL:** https://kiroprouser.github.io/RepoDoctor/
 - **GitHub repository topics:** `open-source`, `github`, `developer-tools`, `contributor-experience`, `repository-health`, `repository-analysis`, `vite`, `react`, `typescript`
